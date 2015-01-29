@@ -5,7 +5,7 @@ import socket
 import time
 
 message = "hello"
-host = socket.gethostname()		# get hostname
+host = socket.gethostname()		# get hostname, or you can set it as '0.0.0.0' or dns
 port = 9977				# get port
 
 s = socket.socket(socket.AF_INET,	# Internet

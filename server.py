@@ -4,7 +4,7 @@ import socket
 import select
 import time
 
-host = socket.gethostname()			# get hostname
+host = socket.gethostname()			# get hostname, or you can set it as '0.0.0.0' or dns
 port = 9977					# get port
 
 
